@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>836</width>
+    <height>608</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>20</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="AIHandLayout">
+     <item>
+      <widget class="QLabel" name="LH2">
+       <property name="text">
+        <string>Hand Two:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="H2_1">
+       <property name="text">
+        <string>Card1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="H2_2">
+       <property name="text">
+        <string>Card2</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>220</y>
+      <width>301</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="TCardLayout">
+     <item>
+      <widget class="QLabel" name="T1_1">
+       <property name="text">
+        <string>Card1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="T1_2">
+       <property name="text">
+        <string>Card2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="T1_3">
+       <property name="text">
+        <string>Card3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="T1_4">
+       <property name="text">
+        <string>Card4</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="T1_5">
+       <property name="text">
+        <string>Card5</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>540</y>
+      <width>147</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="PlayerAmountLayout">
+     <item>
+      <widget class="QLabel" name="TLcur_am">
+       <property name="text">
+        <string>Current amount:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="Lcur_am">
+       <property name="text">
+        <string>YourAmount</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>510</y>
+      <width>126</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="PlayerHandLayout">
+     <item>
+      <widget class="QLabel" name="LH1">
+       <property name="text">
+        <string>Your Hand:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="H1_1">
+       <property name="text">
+        <string>Card1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="H1_2">
+       <property name="text">
+        <string>Card2</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_6">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>0</y>
+      <width>136</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="AIAmountLayout">
+     <item>
+      <widget class="QLabel" name="TLcur_am_ai">
+       <property name="text">
+        <string>Current amount:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="Lcur_am_ai">
+       <property name="text">
+        <string>AIAmount</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="stgame">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>NextDeal</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>140</y>
+      <width>109</width>
+      <height>15</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="ResultLayout">
+     <item>
+      <widget class="QLabel" name="TLResult">
+       <property name="text">
+        <string>Result:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="LResult">
+       <property name="text">
+        <string>CurrentResult</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="bankAndBetWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>120</y>
+      <width>113</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="bankAndBetLayout">
+     <item>
+      <layout class="QHBoxLayout" name="BankLayout">
+       <item>
+        <widget class="QLabel" name="TLBank">
+         <property name="text">
+          <string>Bank:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="LBank">
+         <property name="text">
+          <string>CurrentBank</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="BetLayout">
+       <item>
+        <widget class="QLabel" name="TLBet">
+         <property name="text">
+          <string>Bet:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="LBet">
+         <property name="text">
+          <string>CurrentBet</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="buttonsWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>460</y>
+      <width>234</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="buttonsLayout">
+     <property name="spacing">
+      <number>3</number>
+     </property>
+     <property name="leftMargin">
+      <number>5</number>
+     </property>
+     <property name="topMargin">
+      <number>5</number>
+     </property>
+     <property name="rightMargin">
+      <number>5</number>
+     </property>
+     <property name="bottomMargin">
+      <number>5</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="betCallLayout">
+       <item>
+        <widget class="QPushButton" name="betBut">
+         <property name="text">
+          <string>Bet/Raise</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="callBut">
+         <property name="text">
+          <string>Call</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="editBetAndFoldLayout">
+       <item>
+        <widget class="QLineEdit" name="BetAmountEdit"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="foldBut">
+         <property name="text">
+          <string>Fold</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>836</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMenu">
+    <property name="title">
+     <string>Menu</string>
+    </property>
+    <addaction name="actionStart_Game"/>
+    <addaction name="actionStop_Game"/>
+   </widget>
+   <addaction name="menuMenu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionStart_Game">
+   <property name="text">
+    <string>Start Game</string>
+   </property>
+  </action>
+  <action name="actionStop_Game">
+   <property name="text">
+    <string>Stop Game</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
